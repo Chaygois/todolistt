@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
+import Relogio from '../Relogio/Relogio';
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
@@ -41,16 +42,15 @@ function TodoList() {
   };
 
   return (
-    <>
+    <><Relogio /><>
       <h1 className='title'> Crie Tarefas Diárias </h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
         completeTodo={completeTodo}
         removeTodo={removeTodo}
-        updateTodo={updateTodo}
-      />
-    </>
+        updateTodo={updateTodo} />
+    </></>
   );
 }
 
