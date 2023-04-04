@@ -10,5 +10,5 @@ Copy code
 git clone https://github.com/seu-usuario/todo-list-app.git
 cd todo-list-app
 npm install
-![todolist](https://user-images.githubusercontent.com/87384900/228990097-2fa8a033-2bc5-430b-ab47-1936bafb9178.png)
-![2](https://user-images.githubusercontent.com/87384900/228990106-f6481a1e-7b3d-4ac4-a968-da48124d07d0.png)
+
+![image](https://user-images.githubusercontent.com/87384900/229936775-84c8d4b5-ef7f-4778-91ee-5cbc40cb851f.png)
