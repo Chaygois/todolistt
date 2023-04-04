@@ -16,10 +16,19 @@ function Relogio() {
   }, []);
 
   return (
-    <div>
-      <h1>{`${horas}:${minutos}:${segundos}`}</h1>
-    </div>
-  );
-}
+    (
+      <div>
+        <h1 className=
+    'clock'
+    >{`
+    ${horas}
+    :
+    ${minutos}
+    :
+    ${segundos}
+    `}</h1>
+      </div>
+    ));
+    }
 
 export default Relogio;
