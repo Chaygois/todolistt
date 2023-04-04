@@ -93,8 +93,8 @@ h1 {
   margin: 4px auto;
   color: #fff;
   background: linear-gradient(90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%);
+      rgb(246, 148, 255) 0%,
+      rgb(230, 185, 233) 100%);
 
   padding: 16px;
   border-radius: 5px;
@@ -109,14 +109,14 @@ h1 {
 
 .todo-row:nth-child(4n + 2) {
   background: linear-gradient(90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%);
+      rgb(94, 71, 177) 0%,
+      rgb(111, 101, 196) 100%);
 }
 
 .todo-row:nth-child(4n + 3) {
   background: linear-gradient(90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%);
+      rgb(119, 192, 137) 0%,
+      rgb(76, 185, 122) 100%);
 }
 
 .icons {
@@ -146,7 +146,6 @@ h1 {
     #ffffff;
 
   text-align: center;
-  -webkit-text-stroke:
-    3px #4395bb;
+
 
 }
